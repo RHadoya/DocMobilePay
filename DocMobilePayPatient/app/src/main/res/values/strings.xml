@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DocMobilePayPatient</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_dashboard">Paiement</string>
+    <string name="title_notifications">Historique</string>
+</resources>

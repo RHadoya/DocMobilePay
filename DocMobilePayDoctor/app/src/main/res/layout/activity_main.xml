@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:paddingTop="100dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:src="@drawable/doctor"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <TextView
+            android:id="@+id/docteur_text"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Docteur Albert"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/compte_text"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGold"
+                android:text="0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:paddingBottom="50dp"/>
+            <TextView
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGold"
+                android:text=" Eur"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:paddingBottom="50dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/patient_btn"
+            android:padding="10dp"
+            android:background="@color/colorBlue"
+            android:textColor="@color/colorWhite"
+            android:drawableLeft="@drawable/ic_perm_identity_white_24dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/patient_btn_str"/>
+
+        <Button
+            android:id="@+id/consultation_btn"
+            android:padding="10dp"
+            android:background="@color/colorGray"
+            android:textColor="@color/colorWhite"
+            android:drawableLeft="@drawable/ic_search_white_24dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/consultation_btn_str" />
+
+        <Button
+            android:id="@+id/paiement_btn"
+            android:background="@color/colorGold"
+            android:textColor="@color/colorWhite"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/ic_euro_symbol_white_24dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/paiement_btn_str" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_android" type="id"/>
+    <item name="action_logo" type="id"/>
+    <item name="action_landscape" type="id"/>
+</resources>

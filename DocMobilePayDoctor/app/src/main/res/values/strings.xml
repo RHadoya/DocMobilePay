@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">DocMobilePayDoctor</string>
+    <string name="patient_btn_str">Patients</string>
+    <string name="consultation_btn_str">Consultations</string>
+    <string name="paiement_btn_str">Paiements</string>
+
+    <string name="consultation_ajout">Faire une consultation</string>
+
+    <string name="accueil">Accueil</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="annuler">Annuler</string>
+    <string name="confirmer">Confirmer</string>
+    <string name="consultation">Consultation</string>
+    <string name="consultations">Consultations</string>
+    <string name="consultation_id">Consultation (ID)</string>
+    <string name="docteur">Docteur</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="etat">Etat</string>
+    <string name="liste_consultations">Liste des consultations</string>
+    <string name="liste_paiements">Liste des paiements</string>
+    <string name="liste_patients">Liste des patients</string>
+    <string name="montant">Montant</string>
+    <string name="patients">Patients</string>
+    <string name="patient">Patient</string>
+    <string name="patient_id">Patient (ID)</string>
+    <string name="paiements">Paiements</string>
+    <string name="paiement">Paiement</string>
+    <string name="paiement_nfc">Paiement par NFC</string>
+    <string name="prix">Prix</string>
+    <string name="retour">Retour</string>
+    <string name="solde">Solde</string>
+    <string name="valider">Valider</string>
+</resources>
